@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'IMG_4925.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "Je m'appelle Aleksandar Stanojevic, je suis un jeune développeur full stack. Bien que junior, mon interêt pour le developpement me pousse à vouloir monter en compétence au plus vite. Ayant toujours baigné dans l'univers high-tech, j'ai aujourd'hui décidé de mettre en osmose ma vie professionnelle et ma passion pour l'informatique.Je suis une personne curieuse et prête à apprendre sur n'importe quelle technologie",
+  paragraphTwo:
+    "Pour me définir, nous pouvons en premier lieu parler de l'high-tech, mais je suis également passionné par l'automobile. Ayant toujours été très manuel en voulant toucher au hardware de mon premier ordinateur, j'aime aussi la mécanique automobile. Cela m'a aidé à parfaire mon sens du détail et aussi à comprendre l'intérêt de finir un produit parfait. Cela m'aide autant lorsque que je développe que lorsque je dois identifier un problème dans la vie courante.",
+  paragraphThree:
+    "Skills : HTML | CSS | JAVASCRIPT   PHP | C# | Python(en cours)   Frameworks : Symfony 5 | CodeIgniter 4 | .NET | ASP.NET MVC   N'hesitez pas a consulter mon CV. ",
   resume: 'resume', // if no resume, the button will not show up
 };
 
