@@ -53,10 +53,10 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'maboutique.jpg',
+    img: 'jojotissu.png',
     title: 'Boutique de e-commerce(en cours)',
     info:
-      "Il s'agit d'un site de e-commerce avec espace membre, avec back office pour la gestion administrateur(ajout de produits,gestion des utilisateur,recapitulatif des commandes effectuées par les clients).",
+      "Il s'agit d'un site de e-commerce de vente de créations,avec espace membre, back office pour la gestion administrateur(ajout de produits,gestion des utilisateur,recapitulatif des commandes effectuées par les clients).",
     info2: 'Site en cours de création avec le framework Symfony 5',
     url: '',
     repo: 'https://github.com/Drkilla/boutiquefrancaisev2', // if no repo, the button will not show up
