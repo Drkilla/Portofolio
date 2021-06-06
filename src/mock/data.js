@@ -63,7 +63,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'leatseat.jpg',
+    img: 'leatseat.png',
     title: 'Letseat',
     info:
       "Projet pour l'entreprise Letseat au quel j'ai pu contribuer lors de mon stage, developpement de la création de plats;refonte du panier et de la confirmation de commande",
