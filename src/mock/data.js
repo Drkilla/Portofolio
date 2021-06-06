@@ -61,6 +61,16 @@ export const projectsData = [
     url: '',
     repo: 'https://github.com/Drkilla/boutiquefrancaisev2', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'leatseat.jpg',
+    title: 'Letseat',
+    info:
+      "Projet pour l'entreprise Letseat au quel j'ai pu contribuer lors de mon stage, developpement de la création de plats;refonte du panier et de la confirmation de commande",
+    info2: 'Le site a été créé grâce au Framework Symfony 5',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
