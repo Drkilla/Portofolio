@@ -68,7 +68,7 @@ export const projectsData = [
     info:
       "Projet pour l'entreprise Letseat au quel j'ai pu contribuer lors de mon stage, developpement de la création de plats;refonte du panier et de la confirmation de commande",
     info2: 'Le site a été créé grâce au Framework Symfony 5',
-    url: '',
+    url: 'https://www.letseat.fr/',
     repo: '', // if no repo, the button will not show up
   },
 ];
