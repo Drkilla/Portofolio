@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Aleksandar|Developpeur Junior', // e.g: 'Name | Developer'
+  title: 'Aleksandar|Developpeur back-end', // e.g: 'Name | Developer'
   lang: 'fr', // e.g: en, es, fr, jp
   description: 'Bienvenue sur mon portefolio', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Bonjour, je m'appelle",
   name: 'Aleksandar ',
-  subtitle: 'Developpeur Junior',
+  subtitle: 'Developpeur back-end',
   cta: 'Me decouvrir ',
 };
 
@@ -31,6 +31,29 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'jojotissu.png',
+    title: 'Boutique de e-commerce (freelance)',
+    info:
+      " Création d'un site de e-commerce pour la vente de produits de couture fait main. Avec back office, gestion des produits, interface utilisateur, ajout d'api pour le paiement (stripe) et envoie de mails automatiques (MailJet) ",
+    info2: 'Site en cours de création avec le framework Symfony 5',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'leatseat.png',
+    title: 'Letseat',
+    info:
+      "Projet pour l'entreprise Letseat au quel j'ai pu contribuer lors de mon stage. Il s'agit d'une plateforme de vente et livraison de plats cuisinés.",
+    info2:
+      "  Ajout de fonctionnalités : développement de la création de produits avec variables et options, refonte du panier et tunnel d'achat Maintenance évolutive Phases de test.  Le site a été créé grâce au Framework Symfony 5",
+    url: 'https://www.letseat.fr/',
+    repo: '', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
     img: 'votrankCover.png',
     title: "Vot'rank",
     info:
@@ -40,6 +63,7 @@ export const projectsData = [
     url: 'http://votranks.epizy.com/',
     repo: 'https://github.com/Drkilla/VotrankHosted', // if no repo, the button will not show up
   },
+
   {
     id: nanoid(),
     img: 'GiteMain.png',
@@ -50,26 +74,6 @@ export const projectsData = [
       'Application de gestion entièrement écrite en C# et WPF persistance des données avec SQL server via VisualStudio 2019.',
     url: '',
     repo: 'https://github.com/Drkilla/GiteMontagne', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'jojotissu.png',
-    title: 'Boutique de e-commerce(en cours)',
-    info:
-      "Il s'agit d'un site de e-commerce de vente de créations,avec espace membre, back office pour la gestion administrateur(ajout de produits,gestion des utilisateur,recapitulatif des commandes effectuées par les clients).",
-    info2: 'Site en cours de création avec le framework Symfony 5',
-    url: '',
-    repo: 'https://github.com/Drkilla/boutiquefrancaisev2', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'leatseat.png',
-    title: 'Letseat',
-    info:
-      "Projet pour l'entreprise Letseat au quel j'ai pu contribuer lors de mon stage, developpement de la création de plats;refonte du panier et de la confirmation de commande",
-    info2: 'Le site a été créé grâce au Framework Symfony 5',
-    url: 'https://www.letseat.fr/',
-    repo: '', // if no repo, the button will not show up
   },
 ];
 
